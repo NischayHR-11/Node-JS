@@ -1,19 +1,19 @@
 // Module Exports Object
 
-function sum(a,b){
+export function sum(a,b){
     return a+b;
 }
 
-function product(a,b){
+export function product(a,b){
 
     return a*b;
 }
 
-let pi=3.144;
+export let pi=3.144;
 
-module.exports ={
+// module.exports ={
 
-    sum:sum,
-    prod:product,
-    pi:pi
-};
+//     sum:sum,
+//     prod:product,
+//     pi:pi
+// };
