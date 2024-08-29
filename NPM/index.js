@@ -4,7 +4,7 @@
 
 var figlet = require("figlet");
 
-figlet("NISCHAY    H  R", function (err, data) {
+figlet("NISCHAY  H  R", function (err, data) {
   if (err) {
     console.log("Something went wrong...");
     console.dir(err);
